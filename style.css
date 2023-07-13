@@ -1,0 +1,151 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+  background-image: url('NetflixBackground.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+header {
+	background-color: #141414;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+.logo img {
+	height: 50px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+}
+
+.search input {
+	padding: 10px;
+	border: none;
+	border-radius: 5px 0 0 5px;
+}
+
+.search button {
+	padding: 10px;
+	background-color: #e50914;
+	color: #fff;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+
+main {
+	padding: 20px;
+}
+
+.hero {
+	background-image: url(https://cdn.pixabay.com/photo/2016/02/19/11/19/movie-1209329_960_720.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding: 100px;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 1.5rem;
+	margin-bottom: 40px;
+}
+
+.hero button {
+	padding: 15px 40px;
+	background-color: #e50914;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.featured, .popular {
+	margin-bottom: 40px;
+}
+
+.featured h2, .popular h2 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	flex-basis: calc(25% - 20px);
+}
+
+.card img {
+	width: 100%;
+}
+
+.card h3 {
+	font-size: 1.5rem;
+	margin-top: 10px;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer ul {
+	list-style: none;
+	display: flex;
+}
+
+footer li {
+	margin-right: 20px;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer p {
+	font-size: 1.2rem;
+}
